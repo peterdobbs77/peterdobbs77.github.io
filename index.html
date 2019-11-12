@@ -12,8 +12,16 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
+  <link href="css/agency.min.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
   <style>
-    .img:hover {
+    .link-img:hover {
       opacity: 0.7;
     }
 
@@ -26,68 +34,112 @@
 
 <body id="page-top">
   <!-- Header -->
-  <header>
+  <header class="masthead">
     <div class="container">
-      <!-- <img src="assets/img/ZebraPack.JPG" alt="zebras" style="width:300px;" align="right"> -->
-      <h1>Welcome!</h1>
     </div>
   </header>
+
+  <section id="social">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="assets/img/headshot.jpg" alt="me">
+            <h3>Peter N. Dobbs</h3>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/peterdobbs77">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/peternathanieldobbs/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://wanderrwanda.blogspot.com/">
+                  <i class="fa fa-book"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- About -->
   <section id="about">
     <div class="container">
       <div class="row">
-        <div>
-          <h2>About</h2>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About</h2>
           <p>You've reached my personal page. I'm still working on building it. So please be patient :)</p>
-          <h3>Social Media</h3>
-          <a href="https://github.com/peterdobbs77/" class="img">
-            <img src="assets/img/logos/GitHub-Mark-64px.png" alt="GitHub" style="width:70px">
-          </a>&nbsp;
-          <a href="https://wanderrwanda.blogspot.com/" class="img">
-            <img src="assets/img/logos/Blogger.png" alt="Blogger" style="width:70px">
-          </a>&nbsp;
-          <a href="https://www.linkedin.com/in/peternathanieldobbs/" class="img">
-            <img src="assets/img/logos/LI-In-Bug.png" alt="LinkedIn" style="width:70px">
-          </a>&nbsp;
         </div>
       </div>
+    </div>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="content">
-      <hr>
+  <section id="organizations">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Organizations</h2>
+        </div>
+      </div>
       <div class="row" id="emr6050">
-        <a href="https://emr6050.github.io" class="img">
+        <a href="https://emr6050.github.io" class="link-img">
           <img src="assets/img/logos/emr6050_logo_light.png" alt="EMR6050" style="width:220px;">
         </a>
-        <a href="https://github.com/emr6050" class="img">
+        <a href="https://github.com/emr6050" class="link-img">
           <img src="assets/img/logos/GitHub-Mark-32px.png" alt="EMR6050" style="width:20px" align="right">
         </a>
         <p>
-          A suite of cloud-based tools to meet the technical needs of a new behavioral health clinic.
-          All instances and data are hosted on AWS. This project is on-going as a part of my Master's thesis project.
+          A suite of cloud-based tools to meet the technical needs of a new behavioral health clinic. All instances and
+          data are hosted on AWS.
+        </p>
+        <p>
+          This project is on-going as a part of my Master's thesis project.
         </p>
       </div>
       <hr>
       <div class="row" id="greatlakessiim">
-        <a href="https://greatlakessiim.github.io" class="img">
+        <a href="https://greatlakessiim.github.io" class="link-img">
           <img src="assets/img/logos/teamgreatlakes3.png" alt="TeamGreatLakes" style="width:150px;">
         </a>
-        <a href="https://github.com/greatlakessiim" class="img">
+        <a href="https://github.com/greatlakessiim" class="link-img">
           <img src="assets/img/logos/GitHub-Mark-32px.png" alt="TeamGreatLakes" style="width:20px" align="right">
         </a>
         <p>
-
+          I was the team lead for a group of developers that participated in the 2018 and 2019 SIIM Hackathons. Click on
+          the logos above for more information.
         </p>
       </div>
       <hr>
     </div>
+    </div>
   </section>
 
-  <section id="extracurriculars">
+  <!-- <section id="extracurriculars">
 
+  </section> -->
+
+  <section id="other-social">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading">Other Social Media</h3>
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/peetahdobbs/">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
 </body>
