@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Agency v5.0.5 (https://startbootstrap.com/template-overviews/agency)
+ * Based on Bootstrap - Agency v5.0.5 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
@@ -7,6 +7,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #d9e6f3;
 }
 
 p {
@@ -14,15 +15,19 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #687d92;
 }
 
 a:hover {
-  color: #fec503;
+  color: #a0d8e5;
+}
+
+.link-img:hover {
+  opacity: 0.7;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #394552 !important;
 }
 
 h1,
@@ -78,13 +83,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #a0d8e5;
+  border-color: #394552;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #bcf3ff !important;
+  border-color: #556474 !important;
   color: white;
 }
 
